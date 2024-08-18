@@ -34,7 +34,7 @@ function ProfileForm({
             id="password"
             type="password"
             value={password}
-            onChange={(e) => setPassword(e.target.valueAsDate)}
+            onChange={(e) => setPassword(e.target.value)}
           />
         </div>
         <button onClick={submitHandler}>Submit</button>
